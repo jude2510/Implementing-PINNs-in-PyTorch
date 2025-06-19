@@ -29,39 +29,6 @@ This project demonstrates:
 
 ---
 
-## 🗂️ File Structure
-
-Implementing-PINNs-in-PyTorch/
-├── schrodinger_pinn.py # PINN model for Schrödinger equation
-├── allen_cahn_pinn.py # Runge-Kutta discrete-time model
-├── navier_stokes_pinn.py # Inverse problem for Navier-Stokes
-├── kdv_pinn.py # PINN parameter discovery for KdV
-├── utils.py # Helper functions (sampling, plotting, etc.)
-├── Project Report.pdf # Final project report (overview, results, references)
-└── README.md # You are here
-
-
----
-
-## 📊 Results Summary
-
-| PDE | Method | Key Outcome |
-|-----|--------|-------------|
-| Schrödinger | Continuous PINN | Accurate solution with periodic boundary conditions |
-| Allen-Cahn | Discrete-Time PINN | Final solution at \( t=0.9 \) accurately predicted from \( t=0.1 \) |
-| Navier-Stokes | Inverse PINN | Parameters \( \lambda_1, \lambda_2 \) identified, pressure reconstructed |
-| KdV | Parameter Discovery | Estimated parameters within 4% of ground truth |
-
----
-
-## 🧪 Dependencies
-
-Install dependencies:
-
-pip install torch numpy matplotlib scipy
-
----
-
 ## 📚 References
 
 - Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). _Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear PDEs._ Journal of Computational Physics, 378, 686–707.
