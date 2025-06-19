@@ -17,8 +17,6 @@ This project demonstrates:
 
 ---
 
-## 🚀 Problems Addressed
-
 ### ✅ Continuous-Time PINNs
 - **Nonlinear Schrödinger Equation**: Solved using a standard PINN with periodic boundary conditions and MSE-based loss.
 - **Navier-Stokes Equation**: Identified unknown parameters and reconstructed the pressure field from sparse velocity data.
